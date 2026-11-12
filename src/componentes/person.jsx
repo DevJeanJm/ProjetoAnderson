@@ -32,7 +32,7 @@ function Person(){
      }   
      return (
         <div id="docs">
-              <h2>Meu nome é <br /> {person.nome} {person.sobrenome}</h2>        
+              <h2>Me chamo <br /> {person.nome} {person.sobrenome}</h2>        
               
             </div>
     

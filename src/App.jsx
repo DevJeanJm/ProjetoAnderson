@@ -6,6 +6,7 @@ import './App.css'
 import Person from './componentes/person'
 import DBZ from './componentes/dbz'
 import Filme from './componentes/filmes'
+import Pokemon from './componentes/pokemon'
 
 function App() {
   return (
@@ -13,8 +14,13 @@ function App() {
       < Person/>
 
       < DBZ/>
-      
+
       < Filme/>
+      <div className='pokemon-div'>
+      < Pokemon/>
+      </div>
+
+      
       
     </div>
   )
