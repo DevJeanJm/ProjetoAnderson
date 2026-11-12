@@ -10,7 +10,7 @@ import Pokemon from './componentes/pokemon'
 
 function App() {
   return (
-    <div>
+    <div className='body'>
       < Person/>
 
       < DBZ/>
