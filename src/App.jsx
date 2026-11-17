@@ -16,9 +16,11 @@ function App() {
       < DBZ/>
 
       < Filme/>
-      <div className='pokemon-div'>
+      <section className='pokemon-box'>
+        <div className='myPokemon'>
       < Pokemon/>
-      </div>
+        </div>
+      </section>
 
       
       

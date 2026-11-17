@@ -31,13 +31,26 @@ function Pokemon(){
       }
      }   
      return (
-        <div id="docs">
-              <h2>Meu nome pokemon é o {pokemon.name}</h2>
-              <img src={pokemon.sprites.front_shiny} className="base" width="200" height="280" alt="Imagem Dragon Ball Gohan" border-radius='10px'/>                
+
+        
+        <div className="docs">
+          <div className='textPokemon'>
+              <h2>Meu nome pokemon é o <br />
+              {pokemon.name}</h2> 
+          </div>
+              <div className='pokeball'>
+                <div className='imagePokemon'>
+              <img src={pokemon.sprites.front_shiny} className="base" width="100px" height="100px"
+              border-radius="10px"
+              alt="Imagem do Pokemon Celebi"/>                
+                </div>
+
+              </div>
               
             </div>
     
-     )   
+     ) 
+     
 }
 
 export default Pokemon
