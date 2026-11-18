@@ -27,12 +27,12 @@ function Person(){
             <div>Carregando</div>
       )
       if(error){
-        <div>error</div>
+        <div>Error</div>
       }
      }   
      return (
-        <div id="docs">
-              <h2>Me chamo <br /> {person.nome} {person.sobrenome}</h2>        
+        <div className="textPerson">
+              <h1>Me chamo {person.nome} {person.sobrenome}</h1>        
               
             </div>
     

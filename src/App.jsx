@@ -12,8 +12,9 @@ function App() {
   return (
     <div className='body'>
       < Person/>
-
+      <section className='DBZ-Box'>
       < DBZ/>
+      </section>
 
       < Filme/>
       <section className='pokemon-box'>

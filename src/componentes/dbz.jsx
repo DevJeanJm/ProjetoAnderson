@@ -31,8 +31,23 @@ function DBZ(){
       }
      }   
      return (
-        <div>
-            <img src={dbz.image} className="base" width="200" height="280" alt="Imagem Dragon Ball Gohan" border-radius='10px'/>        
+        <div className='AreaDBZ'>
+            <div className='textDBZ'>
+            <h2>Esse é meu personagem favorito.</h2>
+            </div>
+            <h2>{dbz.name}</h2>
+            <img src={dbz.image} className="imageDBZ" width="200" height="280" alt="Imagem Dragon Ball Gohan" border-radius='10px'/>
+            <div className='dbzAtributes'>
+            <p>RACA: <br />
+            {dbz.race}
+            </p>
+            <p>GENÊRO: <br />
+            {dbz.gender}
+            </p>   
+            <p>KI: <br />
+            {dbz.ki}
+            </p>
+            </div>     
         </div>
      )   
 }
